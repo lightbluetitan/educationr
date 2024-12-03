@@ -1,0 +1,6 @@
+pandoc: '3.2'
+pkgdown: 2.1.1
+pkgdown_sha: ~
+articles:
+  Introduction_to_educationR: Introduction_to_educationR.html
+last_built: 2024-12-03T09:08Z
