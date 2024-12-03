@@ -1,0 +1,28 @@
+Package: educationR
+Type: Package
+Title: A Comprehensive Collection of Educational Datasets
+Version: 0.1.0
+Maintainer: Renzo Caceres Rossi <arenzocaceresrossi@gmail.com>
+Description: Provides a comprehensive collection of datasets related to education, 
+    covering topics such as student performance, learning methods, test scores, 
+    absenteeism, and other educational metrics. This package is designed as a 
+    resource for educational researchers, data analysts, and statisticians to explore 
+    and analyze data in the field of education.
+License: GPL-3
+URL: https://github.com/lightbluetitan/educationr
+BugReports: https://github.com/lightbluetitan/educationr/issues
+Encoding: UTF-8
+LazyData: true
+Suggests:
+    ggplot2,
+    dplyr,
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+Authors@R: person(given = c("Renzo", "Caceres"),
+                  family = "Rossi",
+                  role = c("aut", "cre"),
+                  email = "arenzocaceresrossi@gmail.com")
+Config/testthat/edition: 3
+RoxygenNote: 7.3.2
+VignetteBuilder: knitr
